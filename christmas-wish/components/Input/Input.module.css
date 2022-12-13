@@ -1,0 +1,19 @@
+.basicStyles {
+    @apply px-8 rounded-[8px] py-[16px] min-w-[343px] min-[1290px]:h-[56px] border focus:outline-none transition duration-200 ease-in-out bg-white;
+}
+
+.default {
+    @apply border-[#D0D5DD] focus:border-[#669F2A] focus:shadow-[0_0_0_4px] focus:shadow-[#F5FBEE];
+}
+
+.destructive {
+    @apply border-[#FDA29B] focus:shadow-[0_0_0_4px] focus:shadow-[#FEE4E2] focus:border-[#FDA29B];
+}
+
+.error {
+    @apply border-[#F04438] focus:border-[#F04438];
+}
+
+.disabled {
+    @apply border-[#D0D5DD] cursor-not-allowed;
+}
