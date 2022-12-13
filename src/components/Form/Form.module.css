@@ -1,0 +1,10 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    @apply min-w-[400px] shadow p-8 rounded bg-gradient-to-r from-red-200 bg-opacity-10 via-purple-300 bg-opacity-10 to-indigo-300 relative z-20
+}
